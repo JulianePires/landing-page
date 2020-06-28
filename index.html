@@ -46,36 +46,54 @@
 		</div>  
 	</nav>
 
-	<!-- Banner -->
+	 <!-- BANNER AGRADECIMENTO--> 
+    <header>
+		<div class="jumbotron jumbotron-fluid intro" style="background-color: rgb(185, 212, 236);" >
+			<div class="container">
+				<div class="row">
+				
+					<div class ="col-sm-6">
+						<h1 class="mb-4 text-justify">Cadastro com sucesso!</h1>
+						<h4 class="mb-4 text-justify">O seu produto será enviado por email em 15 dias</h4>
+						<h6 class="text-justify">k a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</h6>
+						<h6 class="text-justify"> since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</h6>
+					</div>
+
+				<div class ="col-sm-6">
+					<section>
+					<h1>Cadastre-se Aqui!</h1>
+					<form method="POST" action="https://smtl.gama.academy/leads/bfeebc01-b7e1-11ea-8228-89cff86db9a0" class="needs-validation" id="myForm" novalidate>
+						
+						<div class="form-group has-error">
+							Nome:
+							<input name="name" type="text" class="form-control" pattern="^\D{2,}\s[\D\s]{2,}$" title="Digite seu nome completo" placeholder="ex: Lucas Siqueira"required/>
+							<div class="valid-feedback">Nome Válido.</div>
+							<div class="invalid-feedback">Por favor, digite seu nome completo.</div>
+						</div>
+
+						<div class="form-group">
+							Email:
+							<input name="email" type="email" class="form-control" title="Digite um email válido" placeholder="ex: lucas@gmail.com" required/>
+							<!--<input name="redirectTo" type="hidden" value="https://gama.academy" />-->	
+							<div class="valid-feedback">Email Válido.</div>
+							<div class="invalid-feedback">Por favor, digite um email válido.</div>
+						</div>
+						
+						<input name="debugMode" class= "form-control"type="hidden" value="true" />
+						<button type="submit" class="btn btn-dark">Enviar</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div> 
+				</section>
+					
+	</header>
+     <!-- Banner ANTIGO 
 
 	<img id="banner" class="img-fluid" src="images/gama.png">
-
-	<!-- The Modal -->
-	<div class="modal fade" id="myModal">
-		<div class="modal-dialog modal-dialog-centered">
-		<div class="modal-content">
-	
-			<!-- Modal Header -->
-			<div class="modal-header">
-			<h4 class="modal-title">Modal Heading</h4>
-			<button type="button" class="close" data-dismiss="modal">&times;</button>
-			</div>
-	
-			<!-- Modal body -->
-			<div class="modal-body">
-			Modal body..
-			</div>
-	
-			<!-- Modal footer -->
-			<div class="modal-footer">
-			<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-			</div>
-	
-		</div>
-		</div>
-	</div>
-
-	<!-- Formulário -->
+	-->
+	<!-- Formulário 
 
 	<h1>Cadastre-se Aqui!</h1>
 	<form method="POST" action="https://smtl.gama.academy/leads/bfeebc01-b7e1-11ea-8228-89cff86db9a0" 
@@ -103,15 +121,16 @@
 			class="form-control"
 			title="Digite um email válido"
 			required
-			/>
+			/>-->
 			<!--<input name="redirectTo" type="hidden" value="https://gama.academy" />-->	
-			<div class="valid-feedback">Email Válido.</div>
+			<!--<div class="valid-feedback">Email Válido.</div>
     		<div class="invalid-feedback">Por favor, digite um email válido.</div>
 		  </div>
 		  
 		  <input name="debugMode" type="hidden" value="true" />
 		<button type="submit" class="btn btn-dark">Enviar</button>
 	</form>
+-->
 
 	<footer>
 		<div class="container">
@@ -119,30 +138,9 @@
 		</div>
 	</footer>
 
-	<!-- The Modal -->
-	<div class="modal fade" id="myModal">
-		<div class="modal-dialog">
-		  <div class="modal-content">
-		  
-			<!-- Modal Header -->
-			<div class="modal-header">
-			  <h4 class="modal-title">Modal Heading</h4>
-			  <button type="button" class="close" data-dismiss="modal">×</button>
-			</div>
-			
-			<!-- Modal body -->
-			<div class="modal-body">
-			  Modal body..
-			</div>
-			
-			<!-- Modal footer -->
-			<div class="modal-footer">
-			  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
-			</div>
-			
-		  </div>
-		</div>
-	  </div>
+	
+	  
 
+	</div>
 </body>
 </html>
