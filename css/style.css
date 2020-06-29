@@ -4,3 +4,18 @@
 .formgroup{
     background-color: rosybrown;
 }
+
+ul li:before {
+    content: '✓  ';
+}
+
+@media only screen and (max-width: 479px){
+
+}
+
+p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 0px;
+}
