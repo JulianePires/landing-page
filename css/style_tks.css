@@ -17,3 +17,16 @@ a:hover{
     color:rgb(0, 0, 0);
     text-decoration: underline;
 }
+
+.intro_2{
+    background-image: url("../images/banner_1.jpg");
+    color: white;
+    opacity: 0.8;
+}
+.intro{
+    
+}
+.fra_1{
+    font-stretch: 1px;
+}
+
