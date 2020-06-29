@@ -1,6 +1,5 @@
-.intro{
-  
-}
-.formgroup{
-    background-color: rosybrown;
-}
+@media only screen and (min-device-width: 400px) {
+    body {
+      background-image: url('../iPhoneSE4.svg');
+    }
+  }
