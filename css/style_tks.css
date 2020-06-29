@@ -28,3 +28,37 @@ a:hover{
     font-stretch: 1px;
 }
 
+.rede {
+    width: 80px;
+    height: 80px;
+    float: right;
+    margin-right: 20px;
+    transition: all 0,4s ease-out;
+    padding-top: 8px;
+    padding-left: 8px;
+}
+
+.rede#facebook{
+    background-color: #761498;
+    border-radius: 50%;
+}
+
+.rede#instagram{
+  background-color: #761498;
+  border-radius: 50%;
+}
+
+.rede:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+  box-shadow: 4px 30px 16px 0px rgba(50, 50, 50, 0.45)
+}
+
+.icone {
+  height: 60px;
+}
+
+#logodesk:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+}
