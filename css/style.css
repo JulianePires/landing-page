@@ -1,8 +1,8 @@
-.intro{
-  
-}
-.formgroup{
-    background-color: rosybrown;
+@media screen and (max-width:400px) {
+    .fundo {
+        src: url(../iPhoneSE4.svg);
+    }
+    
 }
 
 ul li:before {
