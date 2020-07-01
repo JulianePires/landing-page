@@ -1,4 +1,21 @@
 #intro{
+
+  background: url('../backgroundweb/Vector_11.svg');
+  position: relative;
+  top: 6em;
+  height: 929px;
+  left: -2px;
+}
+a:active{
+    color:white;
+    text-decoration: underline;
+}
+a:hover{
+    color:rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+
   background: url('../backgroundweb/Vector_Tk.svg');
   position: relative;
   top: 2em;
@@ -6,6 +23,7 @@
   height:1000px;
 
 }
+
 
 .fra_1{
     font-stretch: 1px;
