@@ -62,3 +62,11 @@ a:hover{
   cursor: pointer;
   transform: translateY(-10px);
 }
+
+#intro{
+  background: url('../backgroundweb/Vector_11.svg');
+  position: relative;
+  top: 6em;
+  height: 929px;
+  left: -2px;
+}
