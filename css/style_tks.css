@@ -1,29 +1,22 @@
-.t1{
+#intro{
+  background: url('../backgroundweb/Vector_Tk.svg');
+  position: relative;
+  top: 2em;
+  width: 100%;
+  height:1000px;
+}
+#btn{
 
-    font-size: 60px;
-}
 
-.t2{
-    color: seashell;
+  position: relative;
+  padding-left: 10%;
+  top:94%;
 }
-a{
-        color: white;
-        text-decoration: unset;
-}
-a:active{
-    color:white;
-    text-decoration: underline;
-}
-a:hover{
-    color:rgb(0, 0, 0);
-    text-decoration: underline;
+.btn{
+  width: 30%;
+
 }
 
-.intro_2{
-    background-image: url("../images/banner_1.jpg");
-    color: white;
-    opacity: 0.8;
-}
 .fra_1{
     font-stretch: 1px;
 }
