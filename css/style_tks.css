@@ -1,29 +1,12 @@
-.t1{
-    color:yellow;
-    font-size: 60px;
+#intro{
+  background: url('../backgroundweb/Vector_Tk.svg');
+  position: relative;
+  top: 2em;
+  width: 100%;
+  height:1000px;
+
 }
 
-.t2{
-    color: seashell;
-}
-a{
-        color: white;
-        text-decoration: unset;
-}
-a:active{
-    color:white;
-    text-decoration: underline;
-}
-a:hover{
-    color:rgb(0, 0, 0);
-    text-decoration: underline;
-}
-
-.intro_2{
-    background-image: url("../images/banner_1.jpg");
-    color: white;
-    opacity: 0.8;
-}
 .fra_1{
     font-stretch: 1px;
 }
