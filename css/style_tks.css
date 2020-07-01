@@ -1,4 +1,5 @@
 #intro{
+
   background: url('../backgroundweb/Vector_11.svg');
   position: relative;
   top: 6em;
@@ -12,6 +13,15 @@ a:active{
 a:hover{
     color:rgb(0, 0, 0);
     text-decoration: underline;
+}
+
+
+  background: url('../backgroundweb/Vector_Tk.svg');
+  position: relative;
+  top: 2em;
+  width: 100%;
+  height:1000px;
+
 }
 
 
