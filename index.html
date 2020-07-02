@@ -15,24 +15,7 @@
 
 
         <script>
-            var ua = navigator.userAgent.toLowerCase();
-            var uMobile = '';
-            // === REDIRECIONAMENTO PARA iPhone, Windows Phone, Android, etc. ===
-            // Lista de substrings a procurar para ser identificado como mobile WAP
-            uMobile = '';
-            uMobile += 'iphone;ipod;windows phone;android;iemobile 8';
-            // Sapara os itens individualmente em um array
-            v_uMobile = uMobile.split(';');
-            // percorre todos os itens verificando se eh mobile
-            var boolMovel = false;
-            for (i=0;i<=v_uMobile.length;i++){
-                if (ua.indexOf(v_uMobile[i]) != -1){
-                    boolMovel = true;
-                }
-            }
-            if (boolMovel == true){
-                location.href='mobile.html';
-            }
+            var ua=navigator.userAgent.toLowerCase(),uMobile="";uMobile="",uMobile+="iphone;ipod;windows phone;android;iemobile 8",v_uMobile=uMobile.split(";");var boolMovel=!1;for(i=0;i<=v_uMobile.length;i++)-1!=ua.indexOf(v_uMobile[i])&&(boolMovel=!0);1==boolMovel&&(location.href="mobile.html");
         </script>
 
         <!--PRELOADS-->
@@ -60,11 +43,7 @@
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-171051492-1"></script>
         <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-
-            gtag('config', 'UA-171051492-1');
+            function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","UA-171051492-1");
         </script>
         <!-- Facebook Pixel Code -->
         <script>
@@ -98,11 +77,7 @@
             <!-- Global site tag (gtag.js) - Google Ads: 792854533 -->
             <script async src="https://www.googletagmanager.com/gtag/js?id=AW-792854533"></script>
             <script>
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-
-                gtag('config', 'AW-792854533');
+                function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","AW-792854533");
             </script>
 
             <script id='pixel-script-poptin' src='https://cdn.popt.in/pixel.js?id=476ea5ec8e45f' async='true'></script> 
