@@ -1,11 +1,46 @@
 #intro{
-
-  background: url('../backgroundweb/Vector_11.svg');
-  position: relative;
-  top: 6em;
-  height: 929px;
-  left: -2px;
+  background-color: #761498;
 }
+#intro2{
+  background-color:white;
+}
+#fra1{
+  margin-top: 60px;
+  color:white;
+  font-family: 'Quicksand', sans-serif;
+  font-size:61px;
+  
+}
+#fra3{
+  margin-top: 10px;
+  color:black;
+  font-family: 'Quicksand', sans-serif;
+  font-size:30px;
+  font-style:normal;
+}
+#fra{
+  margin-top: 5px;
+  margin-bottom: 50px;
+  font-family: 'Roboto';
+  color:white;
+  font-size:30px;
+}
+
+#fra2{
+  margin-top: 35px;
+  color:white;
+  font-family: 'Roboto';
+  font-size:30px;
+}
+#bot{
+  font-family: 'Roboto', sans-serif; 
+  font-size:35px;
+}
+.btn{
+  margin-top: 25px;
+  width: 330px;
+}
+
 a:active{
     color:white;
     text-decoration: underline;
@@ -13,20 +48,6 @@ a:active{
 a:hover{
     color:rgb(0, 0, 0);
     text-decoration: underline;
-}
-
-
-  background: url('../backgroundweb/Vector_Tk.svg');
-  position: relative;
-  top: 2em;
-  width: 100%;
-  height:1000px;
-
-}
-
-
-.fra_1{
-    font-stretch: 1px;
 }
 
 .rede {
@@ -62,12 +83,4 @@ a:hover{
 #logodesk:hover {
   cursor: pointer;
   transform: translateY(-10px);
-}
-
-#intro{
-  background: url('../backgroundweb/Vector_11.svg');
-  position: relative;
-  top: 6em;
-  height: 929px;
-  left: -2px;
 }
