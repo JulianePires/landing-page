@@ -23,6 +23,8 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Quicksand:wght@600&display=swap');
+
 
 body{
   max-width: 920px;
@@ -60,10 +62,9 @@ body{
 }
 
 #relogio {
-  max-width: 280px;
-  max-height: 186px;
+  max-width: 305px;
   background: #6316a3;
-  
+  right: 0;
 }
 
 #container2{
