@@ -12,11 +12,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&family=Roboto&display=swap');
 
 body{
-    max-width: 1400px;
+    max-width: 2000px;
     height: 100%;
 
 }
 
+#logodesk {
+    max-width: 280px;
+    height: auto;
+}
+
+#social{
+    margin-top: 20px;
+    max-height: 60px;
+    padding-right: 30px;
+    float: right;
+}
+
+#social:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+#logodesk:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+}
 
 #cabecalho{
     width: 100%;
@@ -114,6 +135,7 @@ body{
 #containerForm {
     padding-top: 40px;
     padding-bottom: 40px;
+    width: 100%;
     
 }
 
