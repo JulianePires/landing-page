@@ -136,9 +136,7 @@ p{
     margin-top: 0px;
 }
 
-#relogio {
-    margin-right: auto;
-}
+
 
 #contador {
     width: 100%;
@@ -150,5 +148,6 @@ p{
 #clock{
     position: absolute;
     bottom: 0;
+    right: 0;
 }
 
