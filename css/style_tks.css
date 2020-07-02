@@ -1,5 +1,22 @@
+#logodesk {
+  max-width: 250px;
+  height: auto;
+}
+
+#social{
+  margin-top: 20px;
+  max-height: 60px;
+  padding-right: 30px;
+  float: right;
+}
+
+#cabecalho{
+  width: 100%;
+  height: 50px;
+}
 #intro{
-  background-color: #761498;
+  background-color: #6316a3;
+  padding-bottom: 40px;
 }
 #intro2{
   background-color:white;
@@ -9,44 +26,51 @@
   color:white;
   font-family: 'Quicksand', sans-serif;
   font-size:61px;
+  font-weight: bold;
+  padding-top: 30px;
   
 }
 #fra3{
-  margin-top: 10px;
-  color:black;
+  padding-top: 20px;
+  color:#ffff;
   font-family: 'Quicksand', sans-serif;
   font-size:30px;
   font-style:normal;
+  padding-bottom: 25px;
 }
 #fra{
-  margin-top: 5px;
-  margin-bottom: 50px;
-  font-family: 'Roboto';
+  padding-top: 20px;
+  padding-bottom: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   color:white;
   font-size:30px;
 }
 
 #fra2{
-  margin-top: 35px;
+  padding-top: 35px;
   color:white;
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
   font-size:30px;
 }
 #bot{
   font-family: 'Roboto', sans-serif; 
+  font-weight: 400;
   font-size:35px;
 }
 .btn{
-  margin-top: 25px;
   width: 330px;
+  font-weight: bold;
+  border-radius: 10px;
 }
 
 a:active{
-    color:white;
+    color:#74549f;
     text-decoration: underline;
 }
 a:hover{
-    color:rgb(0, 0, 0);
+    color:#646464;
     text-decoration: underline;
 }
 
@@ -81,6 +105,11 @@ a:hover{
 }
 
 #logodesk:hover {
+  cursor: pointer;
+  transform: translateY(-10px);
+}
+
+#social:hover {
   cursor: pointer;
   transform: translateY(-10px);
 }

@@ -27,7 +27,17 @@ body{
     max-height: 60px;
     padding-right: 30px;
     float: right;
-  }
+}
+
+#social:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+}
+
+#logodesk:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+}
 
 #cabecalho{
     width: 100%;
