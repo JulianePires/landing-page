@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
 @font-face{
     font-family: "Roboto";
     src: url("../fonts/Roboto/Roboto-Regular.ttf") format("ttf");
@@ -6,13 +11,20 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600;700&family=Roboto&display=swap');
 
-.row{
-    margin-right: 0;
+body{
+    max-width: 1400px;
+    height: 100%;
+
+}
+
+
+#cabecalho{
+    width: 100%;
 }
 
 #banner1 {
     background: #6316a3;
-    margin-right: -45px;
+    width: 100%;
 }
 
 #chamadaDesktop{
@@ -23,7 +35,7 @@
     padding-top: 50px;
     padding-bottom: 30px;
     color: #fff;
-    margin-left: 40px;
+    padding-left: 40px;
 }
 
 #chamadaDesktop2{
@@ -33,13 +45,13 @@
     font-size: 32px;
     padding-bottom: 110px;
     color: #fff;
-    margin-left: 20px;
-
+    padding-left: 40px;
 }
 
 #banner2 {
-    margin-right: -45px;
     text-align: center;
+    width: 100%;
+    
 }
 
 #maratonaBeloved{
@@ -49,6 +61,7 @@
     color: #3F3e3e;
     padding-top: 60px;
     padding-bottom: 20px;
+    width: 100%;
 }
 
 #tresEmails {
@@ -57,6 +70,7 @@
     font-weight: 400;
     color: #646464;
     padding-bottom: 40px;
+    width: 100%;
 
 }
 
@@ -70,11 +84,13 @@
 
 #activities {
     padding-bottom: 140px;
+    width: 100%;
 }
 
 #controleSeuTempo {
     background: #74549f;
-    margin-right: -45px;;
+    width: 100%;
+    
 
 }
 
@@ -92,11 +108,13 @@
     padding-bottom: 30px;
     color: #fff;
     margin-left: 40px;
+    width: 100%;
 }
 
 #containerForm {
     padding-top: 40px;
     padding-bottom: 40px;
+    
 }
 
 #tecnicas {
@@ -106,13 +124,31 @@
     text-align: left;
     color: #fff;
     float: left;
+    margin-left: 20px;
 }
 
 p{
-    color: #6316a3;
+    color: #ffffff;
     text-align: center;
     font-size: 60px;
     font-family: "Quicksand";
     font-weight: bold;
     margin-top: 0px;
-  }
+}
+
+#relogio {
+    margin-right: auto;
+}
+
+#contador {
+    width: 100%;
+    background: #6316a3; 
+    padding-top: 20px;
+    padding-bottom: 3px;
+}
+
+#clock{
+    position: absolute;
+    bottom: 0;
+}
+
