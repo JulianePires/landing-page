@@ -40,30 +40,41 @@ body{
   width: 100%;
   background: #6316a3;
   padding-top: 80px;
-  align-items: center;
 }
 
 #chamada1{
-  text-align: center;
+  text-align: left;
   color: #ffffff;
   font-family: 'Quicksand', sans-serif; 
   font-weight: normal;
   font-size: 28px;
   padding-bottom: 20px;
+  max-width: 640px;
 }
 
 #chamada2{
-  text-align: center;
+  padding-top: 20px;
+  text-align: left;
   color: #ffffff;
   font-family: 'Roboto', sans-serif; 
   font-weight: 400;
   font-size: 16px;
   padding-bottom: 50px;
+  max-width: 640px;
+}
+
+#containerRelogio {
+  width: 100%;
+  background: #6316a3;
+  position: relative;
+  min-height: 210px;
 }
 
 #relogio {
   max-width: 305px;
   background: #6316a3;
+  position: absolute;
+  bottom: 0;
   right: 0;
 }
 
@@ -142,6 +153,7 @@ body{
 }
 
 p{
+  margin: 0;
   padding-top: 10px;
   color: #ffffff;
   text-align: center;
@@ -168,6 +180,7 @@ p{
 
 #social{
   max-height: 40px;
+  padding-right: 20px;
 }
 
 
