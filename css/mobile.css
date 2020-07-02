@@ -75,7 +75,8 @@ body{
 }
 
 #relogio {
-  max-width: 300px;
+  width: 320;
+  height: 186;
   background: #6316a3;
   position: absolute;
   bottom: 0;
