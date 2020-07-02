@@ -40,6 +40,8 @@ body{
   width: 100%;
   background: #6316a3;
   padding-top: 80px;
+  display: inline-block;
+  width: calc(100% - 1px);
 }
 
 #chamada1{
@@ -68,6 +70,8 @@ body{
   background: #6316a3;
   position: relative;
   min-height: 210px;
+  display: inline-block;
+  width: calc(100% - 1px);
 }
 
 #relogio {
